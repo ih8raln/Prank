@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ты гей!!!</title>
+    <!-- linking the css -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fffa93f029.js"></script>
+</head>
+
+<body>
+
+    <div class="buttonDiv-div">
+        <button class="clickYes" onclick="openPopup()">Да&nbsp;😂</button>
+        <button class="clickNo" onclick="openPopupImpossible()" id="clickNo">Нет&nbsp;😡</button>
+    </div>
+
+    <!-- defined container with glass effect -->
+    <div class="container">
+        <div class="card">
+            <p>Ты <span>ГЕЙ</span>?</p>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <i class="fas fa-times" onclick="closePopup()"></i>
+        <img src="images/gay.jpeg" alt="gay">
+        <h3>Я знал, что ты гей...</h3>
+        <p>Спасибо, что сохраняешь женщин для других😂😂😂</p>
+    </div>
+    <div class="popup" id="popup-impossible">
+        <i class="fas fa-times" onclick="closePopupImpossible()"></i>
+        <img src="images/chad.jpg" alt="chad">
+        <h3>Чувак, ты сделал это...</h3>
+        <p>Добро пожаловать в семью натуралов🎉🎉🎉</p>
+    </div>
+
+    <!-- linking the js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
